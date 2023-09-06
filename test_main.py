@@ -2,14 +2,17 @@
 Test goes here
 
 """
-from main import negative_number
+from main import myvar
 
+import pandas as pd
 
-def test_negative_number():
-    # Test with a positive number
-    result = negative_number(-1)
-    assert result, "Test failed for the negative number"
+def test_dataset():
+    # Test with dataset
+    mydataset = {'cars': ["BMW", "Volvo", "Ford"], 'passings': [3, 7, 2]}
+    myvar = pd.DataFrame(mydataset)
+    result = myvar
+    assert result, "Test failed to meet the dataset"
 
 
 if __name__ == "__main__":
-    test_negative_number()
+    test_dataset()
