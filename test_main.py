@@ -2,17 +2,13 @@
 Test goes here
 
 """
-from main import myvar
+from main import mycar
 
-import pandas as pd
-
-def test_dataset():
+def test_data():
     # Test with dataset
-    mydataset = {'cars': ["BMW", "Volvo", "Ford"], 'passings': [3, 7, 2]}
-    myvar = pd.DataFrame(mydataset)
-    result = myvar
+    result = mycar(6)
     assert result, "Test failed to meet the dataset"
 
 
 if __name__ == "__main__":
-    test_dataset()
+    test_data()
