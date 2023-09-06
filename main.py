@@ -2,14 +2,14 @@
 Main code
 """
 
-
 import pandas as pd
 
-mydataset = {
-  'cars': ["BMW", "Volvo", "Ford"],
-  'passings': [3, 7, 2]
-}
-
-myvar = pd.DataFrame(mydataset)
-
-print(myvar)
+def mycar(data):
+  mydataset = {'cars': ["BMW", "Volvo", "Ford"],'counts': [3, 7, 2]}
+  mycar = pd.DataFrame(mydataset)
+  mycar = mycar.max()
+  car_column = mycar['counts']
+  if a == car_column :
+      return True
+  else:
+      pass
