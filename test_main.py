@@ -6,7 +6,7 @@ from main import mycar
 
 def test_data():
     # Test with dataset
-    result = mycar(6)
+    result = mycar(7)
     assert result, "Test failed to meet the dataset"
 
 
