@@ -12,4 +12,4 @@ def mycar(data):
   if data == car_column :
       return True
   else:
-      pass
+      return False
