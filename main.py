@@ -1,7 +1,6 @@
 """
 Main code
 """
-
 import pandas as pd
 
 def mycar(data):
