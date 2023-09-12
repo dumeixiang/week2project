@@ -2,7 +2,9 @@
 Test goes here
 
 """
-from main import mycar
+
+import pandas as pd
+from main import development
 
 def test_data():
     # Test with dataset
