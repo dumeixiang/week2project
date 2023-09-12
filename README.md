@@ -1,25 +1,25 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+Summary:
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+This report provides a descriptive statistical analysis of world GDP and mortality .
+This project will include the reading of the data, the statistical summary of the data and the data visualization. 
+Data.descrition:
 
-Things included are:
+Task:
 
-* `Makefile`
+1. Correctly read data.
+2. Accurate statistica summary.
+3. Functioning data visualization
 
-* `Pytest`
+Deliverables
+1. Python script
+2. Delivery proof  for data statistics
+3. Delivery proof for data visualization
 
-* `pandas`
 
-* `Pylint`
+attaching screenshot for data visualization and statistical result:
+<img width="655" alt="image" src="https://github.com/dumeixiang/week2project/assets/141801043/2eb51d95-e606-416a-9ed1-3a8040f7f2fe">
 
-* `Dockerfile`
 
-* `GitHub copilot`
+![image](https://github.com/dumeixiang/week2project/assets/141801043/889ed27d-ecee-4c24-8034-ebdfd0f43898)
 
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions` 
 
