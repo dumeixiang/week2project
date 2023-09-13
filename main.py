@@ -1,8 +1,8 @@
 """
 Main code
 """
-import pandas as pd
-import numpy as np
+#import pandas as pd
+#import numpy as np
 
 
 # Download World Development Indicators
@@ -12,7 +12,6 @@ def development(data):
 # generate Plot
 
 import seaborn.objects as so
-import seaborn as sns
 from matplotlib import style
 
 def plot(data):
