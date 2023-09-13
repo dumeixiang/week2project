@@ -1,12 +1,14 @@
 """
 Main code
 """
-#import pandas as pd
+import pandas as pd
 #import numpy as np
 
 
 # Download World Development Indicators
 def development(data): 
+    data = pd.read_csv("https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
+    data.describe()
     return data["Adolescent fertility rate (births per 1,000 women ages 15-19)"].describe().loc['mean']
 
 # generate Plot
