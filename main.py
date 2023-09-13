@@ -7,7 +7,7 @@ import numpy as np
 
 # Download World Development Indicators
 def development(data): 
-    return data["Adolescent fertility rate (births per 1,000 women ages 15-19)"].describe().
+    return data["Adolescent fertility rate (births per 1,000 women ages 15-19)"].describe()
 
 # generate Plot
 
